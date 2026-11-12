@@ -1,0 +1,54 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: copilot
+      POSTGRES_PASSWORD: copilot
+      POSTGRES_DB: chargeback
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U copilot -d chargeback"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      ENVIRONMENT: docker
+      DATABASE_URL: postgresql+psycopg://copilot:copilot@db:5432/chargeback
+      SEED_DEMO_DATA: "true"
+      CORS_ORIGINS: http://localhost:5173,http://127.0.0.1:5173
+      JWT_SECRET: change-this-in-production-to-a-long-random-value
+      REQUIRE_AUTH: "false"
+      AI_MODE: auto
+      PAYPAL_CLIENT_ID: ${PAYPAL_CLIENT_ID:-}
+      PAYPAL_CLIENT_SECRET: ${PAYPAL_CLIENT_SECRET:-}
+      PAYPAL_REDIRECT_URI: http://localhost:8000/api/paypal/oauth/callback
+      PAYPAL_RETURN_URL: http://localhost:5173/paypal
+      PAYPAL_TOKEN_ENCRYPTION_KEY: ${PAYPAL_TOKEN_ENCRYPTION_KEY:-}
+    ports:
+      - "8000:8000"
+    volumes:
+      - evidence:/app/storage/evidence
+    restart: unless-stopped
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health', timeout=4)"
+      interval: 30s
+      timeout: 5s
+      start_period: 20s
+      retries: 3
+
+volumes:
+  pgdata:
+  evidence:

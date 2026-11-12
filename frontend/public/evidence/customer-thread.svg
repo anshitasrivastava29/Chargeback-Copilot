@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640" role="img" aria-label="Buyer conversation transcript">
+  <rect width="900" height="640" fill="#EEF2F7"/>
+  <rect x="60" y="48" width="780" height="544" rx="18" fill="#FFFFFF" stroke="#D8E0EA"/>
+  <path d="M60 66a18 18 0 0 1 18-18h744a18 18 0 0 1 18 18v66H60V66Z" fill="#F8FAFC"/>
+  <line x1="60" y1="132" x2="840" y2="132" stroke="#E2E8F0"/>
+  <circle cx="100" cy="90" r="18" fill="#DBEAFE"/>
+  <text x="100" y="96" fill="#1D4ED8" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">JE</text>
+  <text x="130" y="86" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">Jordan Ellis</text>
+  <text x="130" y="104" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="11">Buyer · order AC-10482</text>
+  <circle cx="806" cy="90" r="5" fill="#34D399"/>
+  <text x="796" y="94" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="10" text-anchor="end">Exported Oct 31</text>
+
+  <rect x="90" y="166" width="410" height="74" rx="14" fill="#F1F5F9"/>
+  <text x="110" y="192" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="13">Hi — the tracking page says this order was delivered,</text>
+  <text x="110" y="214" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="13">but I can't find the package at my building.</text>
+  <text x="110" y="232" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="10">Oct 30, 5:12 PM</text>
+
+  <rect x="400" y="262" width="410" height="74" rx="14" fill="#2563EB"/>
+  <text x="420" y="288" fill="#EFF6FF" font-family="Segoe UI, Arial, sans-serif" font-size="13">Thanks for flagging this. The carrier scan shows</text>
+  <text x="420" y="310" fill="#EFF6FF" font-family="Segoe UI, Arial, sans-serif" font-size="13">delivery at the front door. We're opening a trace.</text>
+  <text x="790" y="328" fill="#BFDBFE" font-family="Segoe UI, Arial, sans-serif" font-size="10" text-anchor="end">Oct 30, 5:31 PM</text>
+
+  <rect x="90" y="358" width="360" height="52" rx="14" fill="#F1F5F9"/>
+  <text x="110" y="384" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="13">I checked with the front desk as well.</text>
+  <text x="110" y="401" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="10">Oct 31, 9:04 AM</text>
+
+  <rect x="420" y="432" width="390" height="74" rx="14" fill="#2563EB"/>
+  <text x="440" y="458" fill="#EFF6FF" font-family="Segoe UI, Arial, sans-serif" font-size="13">We've asked the carrier for the delivery scan and</text>
+  <text x="440" y="480" fill="#EFF6FF" font-family="Segoe UI, Arial, sans-serif" font-size="13">signature. We'll follow up within one business day.</text>
+  <text x="790" y="498" fill="#BFDBFE" font-family="Segoe UI, Arial, sans-serif" font-size="10" text-anchor="end">Oct 31, 9:26 AM</text>
+
+  <line x1="90" y1="540" x2="810" y2="540" stroke="#E2E8F0"/>
+  <text x="90" y="566" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="10">Demo transcript exported from the merchant support inbox.</text>
+</svg>

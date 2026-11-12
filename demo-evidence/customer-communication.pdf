@@ -1,0 +1,54 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 1208 >>
+stream
+BT /F1 11 Tf 14 TL
+1 0 0 1 60 760 Tm (ACME COMMERCE - CUSTOMER COMMUNICATION LOG) Tj
+1 0 0 1 60 744 Tm (==========================================) Tj
+1 0 0 1 60 728 Tm () Tj
+1 0 0 1 60 712 Tm (Case   : PP-R-IWF-10198952) Tj
+1 0 0 1 60 696 Tm (Order  : 29091855GU482940S) Tj
+1 0 0 1 60 680 Tm () Tj
+1 0 0 1 60 664 Tm ([October 30, 2026] Acme Commerce \(support@acmecommerce.com\):) Tj
+1 0 0 1 60 648 Tm (  Your order has shipped via FedEx. Tracking:) Tj
+1 0 0 1 60 632 Tm (  108203736757. Estimated delivery November 04, 2026.) Tj
+1 0 0 1 60 616 Tm () Tj
+1 0 0 1 60 600 Tm ([November 04, 2026] Acme Commerce:) Tj
+1 0 0 1 60 584 Tm (  FedEx shows your package was delivered today.) Tj
+1 0 0 1 60 568 Tm (  If anything looks wrong, reply here and we will) Tj
+1 0 0 1 60 552 Tm (  help right away.) Tj
+1 0 0 1 60 536 Tm () Tj
+1 0 0 1 60 520 Tm ([November 11, 2026] Customer via Resolution Center:) Tj
+1 0 0 1 60 504 Tm (  Item not received - buyer opened a dispute.) Tj
+1 0 0 1 60 488 Tm () Tj
+1 0 0 1 60 472 Tm (Acme Commerce support responded within 24 hours) Tj
+1 0 0 1 60 456 Tm (with the carrier delivery record and offered a) Tj
+1 0 0 1 60 440 Tm (replacement or full refund if the package is lost.) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1571
+%%EOF

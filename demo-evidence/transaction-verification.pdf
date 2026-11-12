@@ -1,0 +1,51 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 1087 >>
+stream
+BT /F1 11 Tf 14 TL
+1 0 0 1 60 760 Tm (PAYPAL - TRANSACTION VERIFICATION) Tj
+1 0 0 1 60 744 Tm (==========================================) Tj
+1 0 0 1 60 728 Tm () Tj
+1 0 0 1 60 712 Tm (Capture / transaction ID : 29091855GU482940S) Tj
+1 0 0 1 60 696 Tm (Status                   : COMPLETED) Tj
+1 0 0 1 60 680 Tm (Amount                   : $20.00 USD) Tj
+1 0 0 1 60 664 Tm (Funding source           : PayPal balance) Tj
+1 0 0 1 60 648 Tm (Dispute                  : PP-R-IWF-10198952 \(reason: Item not received\)) Tj
+1 0 0 1 60 632 Tm (Merchant                 : Acme Commerce \(sandbox\)) Tj
+1 0 0 1 60 616 Tm () Tj
+1 0 0 1 60 600 Tm (VERIFICATION) Tj
+1 0 0 1 60 584 Tm (- Payment captured successfully on October 29, 2026.) Tj
+1 0 0 1 60 568 Tm (- No duplicate capture exists for this order.) Tj
+1 0 0 1 60 552 Tm (- AVS/CVV: matched - buyer-authorized payment.) Tj
+1 0 0 1 60 536 Tm (- Buyer account email verified; shipping address) Tj
+1 0 0 1 60 520 Tm (  on the order matches the verified address.) Tj
+1 0 0 1 60 504 Tm () Tj
+1 0 0 1 60 488 Tm (Reference: 29091855GU482940S) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1450
+%%EOF

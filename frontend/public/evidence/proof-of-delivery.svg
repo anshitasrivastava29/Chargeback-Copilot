@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640" role="img" aria-label="Proof of delivery document">
+  <rect width="900" height="640" fill="#EEF2F7"/>
+  <rect x="50" y="40" width="800" height="560" rx="18" fill="#FFFFFF" stroke="#D8E0EA"/>
+  <path d="M50 58a18 18 0 0 1 18-18h764a18 18 0 0 1 18 18v78H50V58Z" fill="#0F172A"/>
+  <circle cx="96" cy="86" r="18" fill="#2563EB"/>
+  <path d="M88 86h16M96 78v16" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <text x="128" y="81" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">SWIFT PARCEL</text>
+  <text x="128" y="102" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="11" letter-spacing="2">PROOF OF DELIVERY</text>
+  <text x="718" y="80" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="10" letter-spacing="1.5">STATUS</text>
+  <text x="718" y="103" fill="#34D399" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Delivered</text>
+
+  <text x="82" y="186" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="10" letter-spacing="1.5">TRACKING NUMBER</text>
+  <text x="82" y="210" fill="#0F172A" font-family="Consolas, monospace" font-size="16" font-weight="600">1Z 8A4 291 035 442</text>
+
+  <text x="470" y="186" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="10" letter-spacing="1.5">DELIVERED ON</text>
+  <text x="470" y="210" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">Oct 30, 2026 · 2:41 PM</text>
+
+  <line x1="82" y1="244" x2="818" y2="244" stroke="#E2E8F0"/>
+
+  <text x="82" y="282" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="10" letter-spacing="1.5">RECIPIENT</text>
+  <text x="82" y="308" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">Jordan Ellis</text>
+  <text x="82" y="332" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="13">975 Cedar Avenue</text>
+  <text x="82" y="353" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="13">Portland, OR 97209</text>
+
+  <text x="470" y="282" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="10" letter-spacing="1.5">SHIPMENT</text>
+  <text x="470" y="308" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="14">2 parcels · 3.4 lb</text>
+  <text x="470" y="332" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="13">Service: Ground · Signature optional</text>
+  <text x="470" y="353" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="13">Reference: AC-10482</text>
+
+  <rect x="82" y="392" width="736" height="76" rx="10" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="102" y="420" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="10" letter-spacing="1.5">DELIVERY NOTE</text>
+  <text x="102" y="445" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="14">Left at front door. Carrier scan recorded at the recipient address.</text>
+
+  <text x="82" y="518" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="10" letter-spacing="1.5">RECIPIENT SIGNATURE</text>
+  <path d="M82 566c26-30 44 18 68-4s38-26 56 2 32-22 54-8 38 24 62 2 44-20 66-2" fill="none" stroke="#1E293B" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="82" y1="580" x2="420" y2="580" stroke="#CBD5E1"/>
+  <text x="470" y="566" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="12">Electronically captured by carrier.</text>
+  <text x="470" y="585" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="11">Demo evidence file for Chargeback Copilot.</text>
+</svg>
